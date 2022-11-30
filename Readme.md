@@ -99,4 +99,19 @@ Ejecutamos el comando ipconfig en el cmd.
 
 ​	Conexión a internet:
 
-<img src="/img/11ºimagenn.png" alt="11ºimagenn"  />
+<img src="/img/11ºimagenn.png" alt="11ºimagenn" style="zoom: 33%;" />
+
+
+
+
+
+
+
+
+
+DIAGRAMA DE LA RED:
+
+
+
+<img src="/img/12ºimagenn.png" alt="12ºimagenn"  />
+
