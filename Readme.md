@@ -105,7 +105,7 @@ Ejecutamos el comando ipconfig en el cmd.
 
 
 
-
+------
 
 
 
@@ -119,21 +119,56 @@ DIAGRAMA DE LA RED:
 
 
 
-Ping de w10 a linux:
+
+
+
+
+------
+
+
+
+
+
+**-Ping de w10 a centOS:**
 
 <img src="/img/13ºimagenn.png" alt="13ºimagenn"  />
 
-Ping de wserv a linux:
 
-<img src="/img/14ºimagenn.png" alt="14ºimagenn"  />
 
-Ping entre wserv a w10:
-
-<img src="/img/15ºimagenn.png" alt="12ºimagenn"  />
-
-Ping de w10 a wserv:
+-**Ping de w10 a wserv:**
 
 <img src="/img/16ºimagenn.png" alt="16ºimagenn"  />
 
-no tengo ping de linux a los demás:
 
+
+------
+
+
+
+
+
+**-Ping de wserv a linux:**
+
+<img src="/img/14ºimagenn.png" alt="14ºimagenn"  />
+
+**-Ping de wserv a w10:**
+
+<img src="/img/15ºimagenn.png" alt="12ºimagenn"  />
+
+
+
+------
+
+
+
+
+
+**-Ping de centos a w10:**
+
+
+
+<img src="/img/17ºimagenn.png" alt="17ºimagenn"  />
+
+-**Ping de centos a wserv:**
+
+<img src="/img/18ºimagenn.png" alt="18ºimagenn"  />
