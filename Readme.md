@@ -39,7 +39,7 @@ A continuación vamos a comprobar si las maquinas están conectadas a la misma r
 
 W10:
 
-Ejecutamos el comando ipconfig en windows.
+Ejecutamos el comando <  ipconfig > en windows.
 
 <img src="/img/5ºimagenn.png" alt="5ºimagenn" style="zoom: 67%;" />
 
@@ -61,27 +61,29 @@ Ejecutamos el comando ipconfig en windows.
 
 CENTOS:
 
+Ejecutamos el comando *< ifconfig >* en el terminal después de activar nuestra interfaz en configuración.
 
+​				IP-> 										192.26.0.7
 
-Primero hemos de ver si la interfaz de  red esta conectada con el comando 	<nmcli device status>.
+​				MASCARA -> 						 255.255.255.0 
 
 <img src="/img/7ºimagenn.png" alt="7ºimagenn"  />
 
-Tras esto debemos activar la interfaz de red con el *<nmcli device connect "enp0s3" >* y comprobaremos el estado con <*nmcli connection show* "enp0s3">.
+Como vemos la puerta de enlace no sale reflejada hemos de ejecutar el comando *< route -n >*
 
 <img src="/img/8ºimagenn.png" alt="8ºimagenn"  />
 
-Podremos entonces los datos de nuestra red
+​				Puerta de enlace-> 			  192.26.0.1
+
+​	Conexión a internet:
 
 <img src="/img/9ºimagenn.png" alt="9ºimagenn"  />
 
-​				IP-> 										192.26.0.5
 
-​				MASCARA(24) -> 						 255.255.255.0 
 
-​				Puerta de enlace-> 			  192.26.0.1
 
-​	Conexión a internet(?):
+
+
 
 
 
