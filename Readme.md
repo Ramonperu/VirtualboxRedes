@@ -27,7 +27,7 @@ Posteriormente hemos de conectar las maquinas a esta red:
 
 ***PERTENENCIA A LA RED:***
 
-
+------
 
 
 
@@ -93,7 +93,7 @@ Ejecutamos el comando ipconfig en el cmd.
 
 <img src="/img/10ºimagenn.png" alt="10ºimagenn"  />
 
-​				IP-> 										192.26.0.6
+​				IP-> 										 
 
 ​				MASCARA -> 						 255.255.255.0 
 
@@ -116,4 +116,24 @@ DIAGRAMA DE LA RED:
 
 
 <img src="/img/12ºimagenn.png" alt="12ºimagenn"  />
+
+
+
+Ping de w10 a linux:
+
+<img src="/img/13ºimagenn.png" alt="13ºimagenn"  />
+
+Ping de wserv a linux:
+
+<img src="/img/14ºimagenn.png" alt="14ºimagenn"  />
+
+Ping entre wserv a w10:
+
+<img src="/img/15ºimagenn.png" alt="12ºimagenn"  />
+
+Ping de w10 a wserv:
+
+<img src="/img/16ºimagenn.png" alt="16ºimagenn"  />
+
+no tengo ping de linux a los demás:
 
