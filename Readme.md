@@ -123,9 +123,15 @@ DIAGRAMA DE LA RED:
 
 
 
+**COMPROBACION DE PINGS ENTRE LAS MAQUINAS**
+
 ------
 
+Para que las maquinas consigan hacer ping entre ellas hemos de activar las reglas del protocolo ICMP dentro del firewall de Windows en las maquinas de windows.
 
+En linux tendremos que activar el ping desde el terminal con el comando:
+
+*echo 0> /proc/sys/net/ipv4/icmp_echo_ignore_all* 
 
 
 
